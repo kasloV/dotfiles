@@ -32,10 +32,10 @@ zsh_add_file "plugins/zsh-bd/bd.zsh"
 
 source "$ZDOTDIR/zsh-completion"
 
-ZSH_HIGHLIGHT_STYLES[reserved-word]=fg=#CD8204
-ZSH_HIGHLIGHT_STYLES[single-quoted-argument]=fg=#CD8204
+ZSH_HIGHLIGHT_STYLES[reserved-word]=fg=yellow
+ZSH_HIGHLIGHT_STYLES[single-quoted-argument]=fg=yellow
 ZSH_HIGHLIGHT_STYLES[single-quoted-argument-unclosed]=default
-ZSH_HIGHLIGHT_STYLES[double-quoted-argument]=fg=#CD8204
+ZSH_HIGHLIGHT_STYLES[double-quoted-argument]=fg=yellow
 ZSH_HIGHLIGHT_STYLES[double-quoted-argument-unclosed]=default
 
 bindkey  "^[[H"   beginning-of-line
